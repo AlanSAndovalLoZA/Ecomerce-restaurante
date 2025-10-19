@@ -1,12 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Mini E-commerce</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Restaurante</h1>
+    <header>
+        <h1>Mini E-commerce</h1>
+        <a href="carrito.html" class="carrito-link">🛒 Carrito (<span id="contador">0</span>)</a>
+    </header>
+
+    <div class="productos-container">
+        <div class="producto">
+            <img src="https://www.inspiredtaste.net/wp-content/uploads/2023/08/Cheese-Pizza-2-1200.jpg" alt="Pizza">
+            <h2>Pizza</h2>
+            <p>Precio: $120</p>
+            <button class="agregar">Agregar</button>
+        </div>
+        <div class="producto">
+            <img src="https://insanelygoodrecipes.com/wp-content/uploads/2022/10/Homemade-Vegan-Mexican-Beef-Tacos-with-Herbs.jpg" alt="Tacos">
+            <h2>Tacos</h2>
+            <p>Precio: $15</p>
+            <button class="agregar">Agregar</button>
+        </div>
+        <div class="producto">
+            <img src="https://gourmetdemexico.com.mx/wp-content/uploads/2020/12/diseno-sin-titulo-39.jpg" alt="Lonche">
+            <h2>Lonche</h2>
+            <p>Precio: $45</p>
+            <button class="agregar">Agregar</button>
+        </div>
+        <div class="producto">
+            <img src="https://www.eatingonadime.com/wp-content/uploads/2023/03/1200x1800-Taco-Bell-Chicken-Quesadilla-11.jpg" alt="Quesadillas">
+            <h2>Quesadillas</h2>
+            <p>Precio: $20</p>
+            <button class="agregar">Agregar</button>
+        </div>
+    </div>
+
     <script src="script.js"></script>
 </body>
 </html>
+
